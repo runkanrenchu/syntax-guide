@@ -1,0 +1,22 @@
+#This is the Build.hxml, a.k.a the file that will be used to add every define, library and configuration we need.
+
+#Here we tell Haxe that our main class (the startup class) is Main.hx.
+--main Main
+
+#Here, we tell it to compile to the "export/Windows" folder for C++ targets (named after Windows target, in this case)
+--cpp export/windows
+
+#Here, we tell Haxe where to find the source files for this project.
+
+--class-path source
+
+#Here, we add the libraries we require for it to work properly. 
+#Remember there's a "version" argument too, for which we can select the version of the library we want to use.
+--library lime
+--library openfl
+--library flixel
+
+#Here, we use the debug flag to tell the compiler to turn on verbose mode to help us debug futher ahead.
+--debug
+
+
