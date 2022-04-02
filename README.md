@@ -1,3 +1,11 @@
+This is a small syntax guide for raw Haxe projects. You can link this to anybody who needs help with how to properly format their Haxe code. Flixel-specific version coming soon!
+
+### If you have any suggestions/improvements, feel free to open a PR/Issue! You can also find me as @BSOD on the Haxe Discord server.
+
+# Compiling
+
+- You only need Haxe's latest version in order to compile this project-- No extra libs needed!
+
 # Extra
 
 ### Concepts that couldn't be explained in the doc will be explained here.
