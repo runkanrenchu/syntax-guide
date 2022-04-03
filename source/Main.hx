@@ -1,11 +1,9 @@
-import openfl.display.Sprite; // imports are typed below the "package;" line, and are required to use the classes they offer.
-
 /**
 	class names always start with an uppercase letter, no spaces, no semicolons. 
 	class names must have the same name as the module (.hx file) they are in.
 	they can `extend` or `implement` other classes/interfaces.
 **/
-class Main extends Sprite
+class Main
 {
 	static public function main()
 	{
@@ -21,7 +19,7 @@ class Main extends Sprite
 		(`super()` takes part on class inheritance. for reference: https://haxe.org/manual/types-class-inheritance.html) 
 
 	**/
-	override public function new(isCool:Bool, ?isAwesome:Bool)
+	public function new(isCool:Bool, ?isAwesome:Bool)
 		/**
 			the `?` right before the isAwesome argument denotes that it is OPTIONAL. therefore it can be passed in or not.
 			if it isn't passed in, however, it returns false by default. 
@@ -30,7 +28,7 @@ class Main extends Sprite
 			a default value, which will be used in case the argument is null.
 		**/
 	{
-		super();
+		
 
 		#if sys
 		if (isCool)
