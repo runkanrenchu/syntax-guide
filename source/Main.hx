@@ -37,6 +37,7 @@ class Main extends Cool implements Stuff
 
 	**/
 	public function new(isCool:Bool, ?isAwesome:Bool)
+        {
 		/**
 			the `?` right before the isAwesome argument denotes that it is OPTIONAL. therefore it can be passed in or not.
 			if it isn't passed in, however, it returns false by default. 
