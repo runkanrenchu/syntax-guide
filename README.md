@@ -8,7 +8,7 @@ This is a small syntax guide for raw Haxe projects. You can link this to anybody
 
 # Extra
 
-### Concepts that couldn't be explained in the doc will be explained here.
+Concepts that couldn't be explained in the doc will be explained here.
 
 ----------
 
