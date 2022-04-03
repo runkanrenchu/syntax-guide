@@ -5,7 +5,6 @@ import haxe.Json; // imports are typed below the "package;" line, and are requir
 	class names must have the same name as the module (.hx file) they are in.
 	they can `extend` or `implement` other classes/interfaces.
 **/
-
 class Cool
 {
       public function new()
@@ -13,6 +12,7 @@ class Cool
           trace("tryin to be cool and awesome B)");
       }
 }
+
 interface Stuff
 {
         public var Cool:Bool;
@@ -36,7 +36,7 @@ class Main extends Cool implements Stuff
 		(`super()` takes part on class inheritance. for reference: https://haxe.org/manual/types-class-inheritance.html) 
 
 	**/
-	override public function new(isCool:Bool, ?isAwesome:Bool)
+	public function new(isCool:Bool, ?isAwesome:Bool)
 		/**
 			the `?` right before the isAwesome argument denotes that it is OPTIONAL. therefore it can be passed in or not.
 			if it isn't passed in, however, it returns false by default. 
@@ -44,7 +44,6 @@ class Main extends Cool implements Stuff
 			TRIVIA: default values: just like we can assign a name to the arguments, we can also assign them
 			a default value, which will be used in case the argument is null.
 		**/
-	{
 		super();
                 Cool = isCool;
                 Awesome = (isAwesome != null) ? isAwesome : false;
