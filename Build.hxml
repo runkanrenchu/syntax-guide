@@ -12,11 +12,12 @@
 
 #Here, we add the libraries we require for it to work properly. 
 #Remember there's a "version" argument too, for which we can select the version of the library we want to use.
+# Warning: Since this project is supposed to be pure Haxe, the lines are commented out.
 
---library lime
---library openfl
+#--library lime
+#--library openfl
 
-#Here, we use the debug flag to tell the compiler to turn on verbose mode to help us debug futher ahead.
+#Here, we use the debug flag to tell the compiler to turn on verbose mode to help us debug further ahead.
 --debug
 
 
