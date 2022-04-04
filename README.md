@@ -1,6 +1,6 @@
 This is a small syntax guide for raw Haxe projects. You can link this to anybody who needs help with how to properly format their Haxe code. Flixel-specific version coming soon!
 
-### If you have any suggestions/improvements, feel free to open a PR/Issue! You can also find me as @BSOD on the Haxe Discord server.
+**If you have any suggestions/improvements, feel free to open a PR/Issue! You can also find me as @BSOD on the Haxe Discord server.**
 
 # Compiling
 
