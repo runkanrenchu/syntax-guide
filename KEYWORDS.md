@@ -86,6 +86,15 @@ other useful features that make programming easier. Some popular editors are Vis
 
 - [Explicit typing](https://haxe.org/manual/types.html): Whenever we are creating a new field, we assign it a name and then explicitly type its Type, this is known as "explicit typing": `var myPoint:Point = new Point();`. Type inference is not necessary in Haxe, however; Haxe's compiler is very smart, and can also handle `var myPoint = new Point();`, as it knows that myPoint is an instance of Point without extra typing.
 
+- Anonymous functions: A function is defined as anonymous when it doesn't have a name. You'll be wondering, _hey, how do I create a function without a name? What would be the use case?_ Anon functions are usually used as arguments. For example, a FlxTween's onComplete function. You'll be less likely to need to call that function anywhere other than after the tween finishes, so why assign it a name? Here's some syntax.
+
+```haxe
+function myFunc(arg:T) {} //function
+function(_:T):T {} //anon function
+```
+
+- Compilation vs Build: You'll see these are used interchangeably, but when it comes to specific terms; whenever we speak about "compilation", we mostly refer to _the process of turning source code into an object file_, a.k.a translating your code to something the target can understand. Whenever we say "build", we usually refer to the whole process of compiling, linking AND packaging the result into, say, an executable file.
+
 ### Instantiation and declaration.
 
 Instantiation and declaration are two different parts of the process of creating a new field. I recommend reading through this whole section since I have seen a lot
