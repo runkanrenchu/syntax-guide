@@ -12,7 +12,7 @@ class Main
 
 	/**
 		if we are extending a class, we `override` its main function (`new()`, or `create()` in the case of a FlxState). 
-		in this case we are extending OpenFL's Sprite class, so we override its `new()` function.
+		in this case we are not extending any classes, so we don't use the override keyword.
 				
 		new() is the function that you call in order to create a new instance of this class. 
 		it can have any number of arguments, and if we were extending a class, we'd have to call super() on it
@@ -42,7 +42,7 @@ class Main
 			Sys.command("pause");
 		}
 		#else
-		throw("Non-sys target.");
+		throw("Non-sys target. This code is made to be tested in a system platform (e.g Neko, Windows, Linux).");
 		#end
 	}
 }
