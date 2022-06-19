@@ -1,10 +1,27 @@
+import haxe.Json; // imports are typed below the "package;" line, and are required to use the classes they offer.
+
 /**
 	class names always start with an uppercase letter, no spaces, no semicolons. 
 	class names must have the same name as the module (.hx file) they are in.
 	they can `extend` or `implement` other classes/interfaces.
 **/
-class Main
+class Cool
 {
+      public function new()
+      {
+          trace("tryin to be cool and awesome B)");
+      }
+}
+
+interface Stuff
+{
+        public var Cool:Bool;
+        public var Awesome:Bool;
+}
+class Main extends Cool implements Stuff
+{
+        public var Cool:Bool;
+        public var Awesome:Bool;
 	static public function main()
 	{
 		new Main(true, false);
@@ -20,6 +37,7 @@ class Main
 
 	**/
 	public function new(isCool:Bool, ?isAwesome:Bool)
+        {
 		/**
 			the `?` right before the isAwesome argument denotes that it is OPTIONAL. therefore it can be passed in or not.
 			if it isn't passed in, however, it returns false by default. 
@@ -27,13 +45,13 @@ class Main
 			TRIVIA: default values: just like we can assign a name to the arguments, we can also assign them
 			a default value, which will be used in case the argument is null.
 		**/
-	{
-		
-
+		super();
+                Cool = isCool;
+                Awesome = (isAwesome != null) ? isAwesome : false;
 		#if sys
-		if (isCool)
+		if (Cool)
 			Sys.command("echo cool!"); // we can access the arguments that we passed in, and perform different actions on them.
-		if (isAwesome) // notice how the parentheses on if statements do NOT end with semicolons.
+		if (Awesome) // notice how the parentheses on if statements do NOT end with semicolons.
 			Sys.command("echo awesome!");
 		else
 		{ // if the code block inside the if statement is of more than one line, it has to be enclosed in brackets.
