@@ -42,7 +42,7 @@ So:
 would rather not read hundreds of lines to spot an error that could easily be spotted by the person who wrote it.
 
 ## How do I properly format my question?
-Programming is a cause and effect system. If an error occurs, there's a high chance that something you did caused it when asking a question it is often extremely helpful to provide us an account of what you did leading up to the issue. Usually within the last 5-10 minutes of the error. This can really help you get solutions faster.
+Programming is a cause and effect system. If an error occurs something you did caused it to occur - keep this in mind when asking a question it is extremely helpful to provide us an account of what you did leading up to the issue, usually within the last 5-10 minutes of the error presenting itself. This can really help you get solutions faster.
 
 - **Provide code snippets:** Paste some _small_ portions of code that could be related to the error so that we can help you debug further.
 - **Show errors:** If you get any errors/stack traces on the console, bingo! We know what the error is and that will speed things up a lot.
