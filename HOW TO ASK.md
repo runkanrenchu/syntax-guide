@@ -24,8 +24,8 @@ Same for Heaps.IO, same for Ceramic, same for general Haxe questions.
 Whatever is the thing you need help with, **PROVIDE INFO!!!**
 
 - "Doesn't work" doesn't mean ANYTHING! Tell us what's happening, and what's the desired outcome, in a way we can understand what's going on.
-- "Where's the error?" Sounds lazy and vague! If you're not compromised to solving your own error, why would we?
-- "Can anybody help me?" By asking this, you're challenging our confidence on our own skills, and compromising us to respond, which is not what you want to do. [Don't ask to ask!](https://dontasktoask.com/)
+- "Where's the error?" Is only valid if you provide us with the right info to help you debug. Otherwise... We can't guess.
+- "Can anybody help me?" By asking this, you're challenging our confidence on our own skills, and compromising us to respond, which is not what you want to do. [Don't ask to ask!](https://dontasktoask.com/).
 just ask.
 - "How do I fix this" Is, again, vague and useless. 
 
