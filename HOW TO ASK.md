@@ -37,10 +37,12 @@ So:
 - Repeating your question again and again in the channels is NOT going to get you help faster and is only annoying spam.
 - Pinging unrelated people to answer your question is not cool.
 - Do NOT contact people in DMs unless they tell you to do so!! This is annoying and it compromises the person to respond to you. If you don't want to flood the chats, use a thread.
+- DMing people prevents others from answering the question, or even getting helped by the answer. 
 - Refrain from sending the entire modules (.hx files). We're here to help you understand the errors, **NOT FIX YOUR CODE!** We have jobs, hobbies, and other activities. And some of us
 would rather not read hundreds of lines to spot an error that could easily be spotted by the person who wrote it.
 
 ## How do I properly format my question?
+Programming is a cause and effect system. If an error occurs something you did caused it to occur - keep this in mind when asking a question it is extremely helpful to provide us an account of what you did leading up to the issue, usually what you wrote and/or changed within the last 5-10 minutes of the error presenting itself. This can really help you get solutions faster.
 
 - **Provide code snippets:** Paste some _small_ portions of code that could be related to the error so that we can help you debug further.
 - **Show errors:** If you get any errors/stack traces on the console, bingo! We know what the error is and that will speed things up a lot.
