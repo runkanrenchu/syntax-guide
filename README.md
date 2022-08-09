@@ -15,8 +15,8 @@ Concepts that couldn't be explained in the doc will be explained here.
 - Brackets, parentheses and square brackets must **ALWAYS** HAVE PAIRS! Brackets denote the start and end of code blocks (inside functions, classes, etc.). A missing/extra bracket can mess things up. So ALWAYS close them properly. Same goes for conditional compilation blocks.
 **VSCode** has built-in **Bracket Pair Colourizer** to help you recognise which brackets match (or not). [Here is a tutorial on how to enable it.](https://www.youtube.com/watch?v=tw7LJZfhowU)
 
-![](https://github.com/runkanrenchu/syntax-guide/blob/master/improper.png)
+![](https://github.com/runkanrenchu/syntax-guide/blob/master/repofiles/improper.png)
 
-![](https://github.com/runkanrenchu/syntax-guide/blob/master/what-is-wrong-with-you.png)
+![](https://github.com/runkanrenchu/syntax-guide/blob/master/repofiles/what-is-wrong-with-you.png)
 
-![](https://github.com/runkanrenchu/syntax-guide/blob/master/proper.png)
+![](https://github.com/runkanrenchu/syntax-guide/blob/master/repofiles/proper.png)
