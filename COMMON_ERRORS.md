@@ -23,3 +23,14 @@ extra clear. Take a look at your code to check if there's any possibly null valu
 
 - **How:** To fix this error, close all previously used terminals. Make sure that all other build commands have finished, and if possible, stop them. Otherwise, you can manually
 connect to a different port.
+
+### Missing `{`/Missing `;`
+- Brackets, parentheses and square brackets must **ALWAYS** HAVE PAIRS! Brackets denote the start and end of code blocks (inside functions, classes, etc.). A missing/extra bracket can mess things up. So ALWAYS close them properly. Same goes for conditional compilation blocks.
+**VSCode** has built-in **Bracket Pair Colourizer** to help you recognise which brackets match (or not). [Here is a tutorial on how to enable it.](https://www.youtube.com/watch?v=tw7LJZfhowU)
+
+Examples:
+![](https://github.com/runkanrenchu/syntax-guide/blob/runkanrenchu-patch-1/repofiles/improper.png)
+
+![](https://github.com/runkanrenchu/syntax-guide/blob/runkanrenchu-patch-1/repofiles/what-is-wrong-with-you.png)
+
+![](https://github.com/runkanrenchu/syntax-guide/blob/runkanrenchu-patch-1/repofiles/proper.png)
