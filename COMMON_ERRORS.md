@@ -29,6 +29,7 @@ connect to a different port.
 **VSCode** has built-in **Bracket Pair Colourizer** to help you recognise which brackets match (or not). [Here is a tutorial on how to enable it.](https://www.youtube.com/watch?v=tw7LJZfhowU)
 
 Examples:
+
 ![](https://github.com/runkanrenchu/syntax-guide/blob/master/repofiles/improper.png)
 
 ![](https://github.com/runkanrenchu/syntax-guide/blob/master/repofiles/what-is-wrong-with-you.png)
